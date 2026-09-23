@@ -16,6 +16,20 @@ TechCart is a responsive mini e-commerce website built to demonstrate practical 
 
 The project simulates an online technology store where users can browse products, search for products, filter products by category, and manage items in a shopping cart.
 
+## Screenshots
+
+### Home Page
+
+![TechCart Home Page](tiisetso-githb.github.io-TechCart.png)
+
+### Products Page
+
+![TechCart Products Page](tiisetso-githb.github.io-TechCart-products.html.png)
+
+### Shopping Cart
+
+![TechCart Shopping Cart](tiisetso-githb.github.io-TechCart-cart.html.png)
+
 ---
 
 ## Features
