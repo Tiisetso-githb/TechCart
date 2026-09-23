@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Products | TechCart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>TechCart</h1>
+
+        <p>Explore Our Products</p>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="products.html">
+            Products
+        </a>
+
+        <a href="cart.html">
+            Cart (<span id="cart-count">0</span>)
+        </a>
+
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+
+        <!-- PRODUCTS HEADER -->
+
+        <section class="products-header">
+
+            <h2>
+                All Products
+            </h2>
+
+            <p>
+                Find the technology you need.
+            </p>
+
+
+            <!-- SEARCH -->
+
+            <div class="search-container">
+
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Search products..."
+                >
+
+            </div>
+
+
+            <!-- CATEGORY BUTTONS -->
+
+            <div class="category-buttons">
+
+                <button
+                    class="category-btn active"
+                    data-category="all"
+                >
+                    All
+                </button>
+
+                <button
+                    class="category-btn"
+                    data-category="laptops"
+                >
+                    Laptops
+                </button>
+
+                <button
+                    class="category-btn"
+                    data-category="smartphones"
+                >
+                    Smartphones
+                </button>
+
+                <button
+                    class="category-btn"
+                    data-category="gaming"
+                >
+                    Gaming
+                </button>
+
+                <button
+                    class="category-btn"
+                    data-category="audio"
+                >
+                    Audio
+                </button>
+
+                <button
+                    class="category-btn"
+                    data-category="accessories"
+                >
+                    Accessories
+                </button>
+
+                <button
+                    class="category-btn"
+                    data-category="tablets"
+                >
+                    Tablets
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCT GRID -->
+
+        <section>
+
+            <div class="product-grid">
+
+
+                <!-- PRODUCT 1 -->
+
+                <div
+                    class="product-card"
+                    data-category="laptops"
+                >
+
+                    <img
+                        src="images/laptop.jpg"
+                        alt="TechBook Pro Laptop"
+                    >
+
+                    <span class="product-category">
+                        Laptops
+                    </span>
+
+                    <h3>
+                        TechBook Pro Laptop
+                    </h3>
+
+                    <p>
+                        R12,999
+                    </p>
+
+                    <button
+                        class="add-to-cart-button"
+                        data-product-id="1"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+
+                <!-- PRODUCT 2 -->
+
+                <div
+                    class="product-card"
+                    data-category="audio"
+                >
+
+                    <img
+                        src="images/headphones.jpg"
+                        alt="SoundMax Headphones"
+                    >
+
+                    <span class="product-category">
+                        Audio
+                    </span>
+
+                    <h3>
+                        SoundMax Headphones
+                    </h3>
+
+                    <p>
+                        R899
+                    </p>
+
+                    <button
+                        class="add-to-cart-button"
+                        data-product-id="2"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+
+                <!-- PRODUCT 3 -->
+
+                <div
+                    class="product-card"
+                    data-category="accessories"
+                >
+
+                    <img
+                        src="images/keyboard.jpg"
+                        alt="ProType Mechanical Keyboard"
+                    >
+
+                    <span class="product-category">
+                        Accessories
+                    </span>
+
+                    <h3>
+                        ProType Mechanical Keyboard
+                    </h3>
+
+                    <p>
+                        R1,299
+                    </p>
+
+                    <button
+                        class="add-to-cart-button"
+                        data-product-id="3"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+
+                <!-- PRODUCT 4 -->
+
+                <div
+                    class="product-card"
+                    data-category="smartphones"
+                >
+
+                    <img
+                        src="images/phone.jpg"
+                        alt="Nova X Smartphone"
+                    >
+
+                    <span class="product-category">
+                        Smartphones
+                    </span>
+
+                    <h3>
+                        Nova X Smartphone
+                    </h3>
+
+                    <p>
+                        R9,499
+                    </p>
+
+                    <button
+                        class="add-to-cart-button"
+                        data-product-id="4"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+
+                <!-- PRODUCT 5 -->
+
+                <div
+                    class="product-card"
+                    data-category="gaming"
+                >
+
+                    <img
+                        src="images/mouse.jpg"
+                        alt="HyperSpeed Gaming Mouse"
+                    >
+
+                    <span class="product-category">
+                        Gaming
+                    </span>
+
+                    <h3>
+                        HyperSpeed Gaming Mouse
+                    </h3>
+
+                    <p>
+                        R699
+                    </p>
+
+                    <button
+                        class="add-to-cart-button"
+                        data-product-id="5"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+
+                <!-- PRODUCT 6 -->
+
+                <div
+                    class="product-card"
+                    data-category="tablets"
+                >
+
+                    <img
+                        src="images/tablet.jpg"
+                        alt="TechTab 11 Tablet"
+                    >
+
+                    <span class="product-category">
+                        Tablets
+                    </span>
+
+                    <h3>
+                        TechTab 11 Tablet
+                    </h3>
+
+                    <p>
+                        R6,999
+                    </p>
+
+                    <button
+                        class="add-to-cart-button"
+                        data-product-id="6"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 TechCart. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
