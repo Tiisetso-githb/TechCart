@@ -20,15 +20,15 @@ The project simulates an online technology store where users can browse products
 
 ### Home Page
 
-![TechCart Home Page](screenshots/home.png)
+![TechCart Home Page](TechCart%20screenshots/tiisetso-githb.github.io-TechCart.png)
 
 ### Products Page
 
-![TechCart Products Page](screenshots/products.png)
+![TechCart Products Page](TechCart%20screenshots/tiisetso-githb.github.io-TechCart-products.html.png)
 
 ### Shopping Cart
 
-![TechCart Shopping Cart](screenshots/cart.png)
+![TechCart Shopping Cart](TechCart%20screenshots/tiisetso-githb.github.io-TechCart-cart.html.png)
 
 ---
 
